@@ -1,8 +1,8 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- *main - a program that prints _putchar, followed by a new line
- *Return: Always success (0)
+ *main -  prints Holberton, followed by a new line
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,6 +15,7 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+
 return (0);
 }
 
