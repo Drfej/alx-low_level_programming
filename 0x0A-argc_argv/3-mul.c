@@ -1,5 +1,5 @@
 #include <stdio.h>
-Include "main.h"
+#include "main.h"
 
 /**
  *_atoi - converts a string to an integer
@@ -40,7 +40,6 @@ return (n);
 }
 
 /**
- *
  *main - multiplies two numbers
  *@argc: number of arguments
  *@argv: array of arguments
