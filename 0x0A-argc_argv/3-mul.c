@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+Include "main.h"
 
 /**
  *_atoi - converts a string to an integer
@@ -23,8 +23,7 @@ if (s[i] == '-')
 ++d;
 if (s[i] >= '0' && s[i] <= '9')
 {
-digit = s[i] - '0'
-;
+digit = s[i] - '0';
 if (d % 2)
 digit = -digit;
 n = n * 10 + digit;
@@ -41,7 +40,9 @@ return (n);
 }
 
 /**
+ *
  *main - multiplies two numbers
+ *@argc: number of arguments
  *@argv: array of arguments
  *Return: 0 (Success), 1 (Error)
  */
